@@ -1,0 +1,26 @@
+// :root {
+//   --color: red;
+//   --bg-color: green;
+// }
+
+$color: red;
+
+// h1 {
+//   color: var(--color);
+// }
+
+h1 {
+  color: red;
+}
+
+// @media screen and (min-width: 600px) {
+//   :root {
+//     --color: blue;
+//   }
+// }
+
+@media screen and (min-width: 600px) {
+  h1 {
+    color: blue;
+  }
+}
